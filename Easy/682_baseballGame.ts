@@ -1,5 +1,12 @@
+/**
+ *  * Time O(N) | Space O(N)
+ * https://leetcode.com/problems/baseball-game/
+ * @param {string[]} operations
+ * @return {number}
+ */
+
 function calPoints(operations: string[]): number {
-  let record = new Array()<number>;
+  let record: number[] = [];
   let sum = 0;
 
   for (let i = 0; i < operations.length; i++) {

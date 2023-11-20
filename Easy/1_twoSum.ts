@@ -1,3 +1,12 @@
+/**
+ * Hash Map - 1 Pass
+ * Time O(N) | Space O(N)
+ * https://leetcode.com/problems/two-sum/
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+
 function twoSum(nums: number[], target: number): number[] {
   const hashMap = new Map();
 
